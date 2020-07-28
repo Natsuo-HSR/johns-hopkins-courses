@@ -1,0 +1,114 @@
+*{padding: 0;margin: 0;border: 0;}
+*,*:before,*:after{-moz-box-sizing: border-box;-webkit-box-sizing: border-box;box-sizing: border-box;}
+:focus,:active{outline: none;}
+a:focus, a:active{outline: none;}
+nav,footer,header,aside,section{display: block;}
+html,body{height: 100%;min-width: 100%;}
+body{line-height: 1;font-size: 14px;font-family: Arial, Helvetica, sans-serif;-ms-text-size-adjust: 100%;-moz-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;}
+input,button,textarea{font-family:Arial, Helvetica, sans-serif;}
+input::-ms-clear{display: none;}
+button{cursor: pointer;}
+button::-moz-focus-inner{padding: 0;border: 0;}
+a,a:visited{text-decoration: none;}
+a:hover{text-decoration: none;}
+ul li{list-style: none;}
+img{vertical-align: top;}
+h1, h2, h3, h4, h5, h6 {font-weight: inherit;font-size:inherit;}
+
+/***********************************************************************/
+* {
+    overflow: hidden;
+}
+
+.container {
+    margin: 0 20px;
+}
+
+.title {
+    font-weight: 600;
+    font-size: 24px;
+    margin: 30px 0 65px 0;
+    text-align: center;
+}
+
+.row {
+    text-align: center;
+}
+
+.col {
+    display: inline-block;
+    vertical-align: top;
+    border: 1px solid black;
+    background-color: #FFC312;
+}
+
+
+.col__title {
+    position: relative;
+    top: -1px;
+    right: -1px;
+    float: right;
+    padding: 8px 15px;
+    font-size: 18px;
+    font-weight: 600;
+    border: 1px solid black;
+}
+
+.tokyo-style {
+    background-color: blanchedalmond;
+    color: black;
+}
+
+.kyoto-style {
+    background-color: #636e72;
+    color: white;
+}
+
+.osaka-style {
+    background-color: #9AECDB;
+    color: #3c40c6;
+}
+
+.col__text {
+    padding: 15px;
+    clear: both;
+    text-align: start;
+    font-weight: 600;
+}
+
+@media (min-width: 992px) {
+    .bs-3 {
+        margin-right: 2%;
+        width: 31%;
+    }
+
+    .bs-3:last-child {
+        margin-right: 0%;
+    }
+}
+
+@media (min-width:768px) and (max-width: 991px) {
+    .ms-2 {
+        margin-right: 2%;
+        max-width: 48.7%;
+    }
+    .ms-2:nth-child(2) {
+        margin-right: 0;
+    }
+
+    .ms-1 {
+        margin-top: 2%;
+        max-width: 99.8%;
+    }
+}
+
+@media (max-width: 767px) {
+    .ss-1 {
+        margin-bottom: 2.5%;
+        width: 100%;
+    }
+    
+    .ss-1:last-child {
+        margin-bottom: 0;
+    }
+}
