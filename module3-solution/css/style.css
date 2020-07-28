@@ -52,6 +52,11 @@ h1, h2, h3, h4, h5, h6 {font-weight: inherit;font-size:inherit;}
     font-size: 16px;
 }
 
+.menu {
+    height: 1000px;
+    background-color: plum;
+}
+
 .main-content h1 {
     font-size: 22px;
     font-weight: 600;
@@ -60,7 +65,6 @@ h1, h2, h3, h4, h5, h6 {font-weight: inherit;font-size:inherit;}
 }
 
 .main-content section {
-    background-color: plum;
     padding: 10px;
     padding-right: 3px;
     line-height: 1.3em;
